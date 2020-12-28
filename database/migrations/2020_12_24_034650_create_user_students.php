@@ -14,12 +14,21 @@ class CreateUserStudents extends Migration
     public function up()
     {
         Schema::create('user_students', function (Blueprint $table) {
-            $table->id();
+            $table->uuid("id");
+            $table->string('nim')->unique();
+            $table->integer('nik')->unique();
+            $table->integer('nisn')->unique();
+            $table->string('npwp')->unique();
             $table->string('name');
-            $table->string('nim');
+            $table->unsignedBigInteger('birth_place_id');
+            $table->date('birth_date_id');
+            $table->enum('gender', ['Laki-laki', 'Perempuan']);
+            $table->unsignedBigInteger('religion_id');
+            $table->string('country');
+            $table->string('alat_transportasi');
+            $table->integer('telephone');
             $table->string('email');
-            $table->enum('type', ['Laki-laki', 'Perempuan']);
-            $table->string('']);
+            $table->string('kps');
             $table->timestamps();
         });
     }

@@ -19,6 +19,16 @@
     <link href="{{ url('assets/css/app-creative.min.css') }}" rel="stylesheet" type="text/css" id="light-style" />
     <link href="{{ url('assets/css/app-creative-dark.min.css') }}" rel="stylesheet" type="text/css" id="dark-style" />
 
+    <style>
+        body[data-layout=topnav] .container-fluid,
+        body[data-layout=topnav] .container-lg,
+        body[data-layout=topnav] .container-md,
+        body[data-layout=topnav] .container-sm,
+        body[data-layout=topnav] .container-xl {
+            max-width: 100%;
+        }
+
+    </style>
     @stack('css-plugin')
     @stack('css')
 

@@ -21,10 +21,11 @@ Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
 
-// Route::get('/student', 'StudentsController@index')->name('student.index');
+Route::get('/student', 'StudentsController@index')->name('student.index');
 
-Route::get('/student', function () {
-    return view('student.index');
-});
+// Route::get('/student', function () {
+//     return view('student.index');
+// });
+
 
 // Route::get('/student', 'StudentsController@index');
