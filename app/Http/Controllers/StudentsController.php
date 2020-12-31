@@ -45,7 +45,7 @@ class StudentsController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('student.show');
     }
 
     /**

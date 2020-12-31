@@ -29,9 +29,6 @@
                             <a href="#" class="btn btn-success ml-2">
                                 Tambah
                             </a>
-                            <a href="#" class="btn btn-warning ml-2">
-                                Upload Excel
-                            </a>
                             <a href="#" class="btn btn-primary ml-2">
                                 Reset
                             </a>
@@ -50,7 +47,7 @@
                                 <h5 class="m-0">
                                     <a class="custom-accordion-title d-block py-1" data-toggle="collapse"
                                         href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                        Program Studi <i class="mdi mdi-chevron-down accordion-arrow"></i>
+                                        Program Studi<i class="mdi mdi-chevron-down accordion-arrow"></i>
                                     </a>
                                 </h5>
                             </div>
@@ -60,7 +57,8 @@
                                 <div class="card-body">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Diploma 1 PPK</label>
+                                        <label class="custom-control-label" for="customCheck1">Diploma 1 Pengukuran dan
+                                            Pemetaan Kadastral</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck2">
@@ -75,22 +73,14 @@
                                 <h5 class="m-0">
                                     <a class="custom-accordion-title collapsed d-block py-1" data-toggle="collapse"
                                         href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Angkatan <i class="mdi mdi-chevron-down accordion-arrow"></i>
+                                        Angkatan<i class="mdi mdi-chevron-down accordion-arrow"></i>
                                     </a>
                                 </h5>
                             </div>
                             <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
                                 data-parent="#custom-accordion-one">
                                 <div class="card-body">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Diploma 1 PPK</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                        <label class="custom-control-label" for="customCheck2">Diploma 4
-                                            Pertanahan</label>
-                                    </div>
+                                    ...
                                 </div>
                             </div>
                         </div>
@@ -108,12 +98,35 @@
                                 <div class="card-body">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Diploma 1 PPK</label>
+                                        <label class="custom-control-label" for="customCheck1">Aktif</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                        <label class="custom-control-label" for="customCheck2">Diploma 4
-                                            Pertanahan</label>
+                                        <label class="custom-control-label" for="customCheck2">Cuti</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Lulus</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Dikeluarkan</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Mengundurkan Diri</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Wafat</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Hilang</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Lainnya</label>
                                     </div>
                                 </div>
                             </div>
@@ -132,12 +145,11 @@
                                 <div class="card-body">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Diploma 1 PPK</label>
+                                        <label class="custom-control-label" for="customCheck1">Laki-laki</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                        <label class="custom-control-label" for="customCheck2">Diploma 4
-                                            Pertanahan</label>
+                                        <label class="custom-control-label" for="customCheck2">Perempuan</label>
                                     </div>
                                 </div>
                             </div>
@@ -156,12 +168,23 @@
                                 <div class="card-body">
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label" for="customCheck1">Diploma 1 PPK</label>
+                                        <label class="custom-control-label" for="customCheck1">Islam</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                        <label class="custom-control-label" for="customCheck2">Diploma 4
-                                            Pertanahan</label>
+                                        <label class="custom-control-label" for="customCheck2">Kristen</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Katholik</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Hindu</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Budha</label>
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +210,7 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Irfan Yudistira</td>
+                                <td><a href="{{ route('student.show', '13') }}">Irfan Yudistira</a></td>
                                 <td>1802345</td>
                                 <td>L</td>
                                 <td>Islam</td>

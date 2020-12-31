@@ -13,19 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-});
+// Route::get('/', function () {
+//     return view('layouts.app');
+// });
 
-Route::get('/dashboard', function () {
+Route::get('/', function () {
     return view('dashboard.index');
 });
 
-Route::get('/student', 'StudentsController@index')->name('student.index');
+Route::resource('/student', 'StudentsController');
 
-// Route::get('/student', function () {
-//     return view('student.index');
-// });
-
-
-// Route::get('/student', 'StudentsController@index');
+Route::group(['prefix'=> '/laporan'], function() {
+    Route::get('/rekaplaporan','LaporanController@rekaplaporan')->name('laporan.rekaplaporan');
+    Route::get('/jumlahdosen','LaporanController@jumlahdosen')->name('laporan.jumlahdosen');
+    Route::get('/jumlahmahasiswa','LaporanController@jumlahmahasiswa')->name('laporan.jumlahmahasiswa');
+});
