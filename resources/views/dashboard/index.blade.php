@@ -39,82 +39,48 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <h3 class="text-center">Judul Informasi</h3>
+                        <h4 class="text-center">Persentase Jumlah Mahasiswa
+                            Berdasarkan Status Aktivitas Mahasiswa (AKM) Periode
+                            2020/2021 Ganjil</h4>
                         <canvas id="myChart"></canvas>
                         <div class="pt-2">
-                            <h3 class="text-center">Judul Tabel</h3>
                             <table class="table table-sm table-centered mb-0">
+                                <h4 class="text-center">Jumlah Mahasiswa
+                                    Berdasarkan Status Aktivitas Mahasiswa (AKM) Periode
+                                    2020/2021 Ganjil</h4>
                                 <thead>
                                     <tr>
-                                        <th colspan="2" class="text-center bg-primary text-white">Tabel 1
+                                        <th class="text-center bg-primary text-white">No
+                                        </th>
+                                        <th class="text-center bg-primary text-white">Program Studi
+                                        </th>
+                                        <th class="text-center bg-primary text-white">Jumlah
+                                        </th>
+                                        <th class="text-center bg-primary text-white">Aktif
+                                        </th>
+                                        <th class="text-center bg-primary text-white">Cuti
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td style="width:20%">Nama<span class="text-danger">*</span></td>
-                                        <td>Irfan Yudistira</td>
+                                        <td class="text-center" style="width:5%">1</td>
+                                        <td>Diploma 1 Pengukuran dan Pemetaan Kadastral</td>
+                                        <td class="text-center">400</td>
+                                        <td class="text-center">390</td>
+                                        <td class="text-center">10</td>
                                     </tr>
                                     <tr>
-                                        <td style="width:20%">Tempat Lahir<span class="text-danger">*</span></td>
-                                        <td>Klaten</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Jenis Kelamin<span class="text-danger">*</span></td>
-                                        <td>Perempuan</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Nama Ibu<span class="text-danger">*</span></td>
-                                        <td>Klaten</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Tanggal Lahir<span class="text-danger">*</span></td>
-                                        <td>17-07-1992</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Agama<span class="text-danger">*</span></td>
-                                        <td>Islam</td>
+                                        <td class="text-center" style="width:5%">2</td>
+                                        <td>Diploma 4 Pertanahan</td>
+                                        <td class="text-center">400</td>
+                                        <td class="text-center">390</td>
+                                        <td class="text-center">10</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div>
-                            <h3 class="text-center">Judul Tabel</h3>
-                            <table class="table table-sm table-centered mb-0">
-                                <thead>
-                                    <tr>
-                                        <th colspan="2" class="text-center bg-primary text-white">Tabel 2
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td style="width:20%">Nama<span class="text-danger">*</span></td>
-                                        <td>Irfan Yudistira</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Tempat Lahir<span class="text-danger">*</span></td>
-                                        <td>Klaten</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Jenis Kelamin<span class="text-danger">*</span></td>
-                                        <td>Perempuan</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Nama Ibu<span class="text-danger">*</span></td>
-                                        <td>Klaten</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Tanggal Lahir<span class="text-danger">*</span></td>
-                                        <td>17-07-1992</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:20%">Agama<span class="text-danger">*</span></td>
-                                        <td>Islam</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -130,28 +96,28 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td style="width:40%">Nama<span class="text-danger">*</span></td>
+                                    <td style="width:30%">Alamat</td>
+                                    <td>Jl. Tata Bhumi No. 5 Banyuraden Gamping Sleman</td>
+                                </tr>
+                                <tr>
+                                    <td style="width:20%">Telepon</td>
+                                    <td>0274-587239</td>
+                                </tr>
+                                <tr>
+                                    <td style="width:20%">Email</td>
+                                    <td>stpn@stpn.ac.id</td>
+                                </tr>
+                                <tr>
+                                    <td style="width:20%">Website</td>
+                                    <td>https://stpn.ac.id</td>
+                                </tr>
+                                <tr>
+                                    <td style="width:20%">Operator</td>
                                     <td>Irfan Yudistira</td>
                                 </tr>
                                 <tr>
-                                    <td style="width:20%">Tempat Lahir<span class="text-danger">*</span></td>
-                                    <td>Klaten</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Jenis Kelamin<span class="text-danger">*</span></td>
-                                    <td>Perempuan</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Nama Ibu<span class="text-danger">*</span></td>
-                                    <td>Klaten</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Tanggal Lahir<span class="text-danger">*</span></td>
-                                    <td>17-07-1992</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Agama<span class="text-danger">*</span></td>
-                                    <td>Islam</td>
+                                    <td style="width:20%">Semester Berlaku</td>
+                                    <td>2020-2021 Ganjil</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -162,33 +128,17 @@
                         <table class="table table-sm table-centered mb-0">
                             <thead>
                                 <tr>
-                                    <th colspan="2" class="text-center bg-primary text-white">Informasi</th>
+                                    <th colspan="2" class="text-center bg-success text-white">Informasi</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td style="width:40%">Nama<span class="text-danger">*</span></td>
-                                    <td>Irfan Yudistira</td>
+                                    <td style="width:30%">Versi Aplikasi</td>
+                                    <td>Siakad 2.0</td>
                                 </tr>
                                 <tr>
-                                    <td style="width:20%">Tempat Lahir<span class="text-danger">*</span></td>
-                                    <td>Klaten</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Jenis Kelamin<span class="text-danger">*</span></td>
-                                    <td>Perempuan</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Nama Ibu<span class="text-danger">*</span></td>
-                                    <td>Klaten</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Tanggal Lahir<span class="text-danger">*</span></td>
-                                    <td>17-07-1992</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%">Agama<span class="text-danger">*</span></td>
-                                    <td>Islam</td>
+                                    <td style="width:20%">Versi Database</td>
+                                    <td>Siakad 2.0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -205,18 +155,16 @@
         var chart = new Chart(ctx, {
             // The type of chart we want to create
             type: 'pie',
-
             // The data for our dataset
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                // labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [{
                     label: 'My First dataset',
-                    // backgroundColor: 'rgb(255, 99, 132)',
-                    // borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
                     data: [0, 10, 5, 2, 20, 30, 45]
                 }]
             },
-
             // Configuration options go here
             options: {}
         });

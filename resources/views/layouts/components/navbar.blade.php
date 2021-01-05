@@ -46,7 +46,6 @@
                             <a href="widgets.html" class="dropdown-item">Pembimbing Mahasiswa</a>
                             <a href="widgets.html" class="dropdown-item">Pembimbing Skripsi</a>
                             <a href="widgets.html" class="dropdown-item">Skripsi</a>
-                            <a href="widgets.html" class="dropdown-item">Status Mahasiswa</a>
                             <a href="widgets.html" class="dropdown-item">Data Kelas dan Jadual</a>
                             <a href="widgets.html" class="dropdown-item">Kartu Rencana Studi</a>
                             <a href="widgets.html" class="dropdown-item">Presensi Taruna</a>
@@ -57,7 +56,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-layouts" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="uil-window mr-1"></i>Rekapitulasi<div class="arrow-down"></div>
+                            <i class="uil-window mr-1"></i>Pelaporan<div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-layouts">
                             <a href="layouts-vertical.html" class="dropdown-item">Rekap Pelaporan</a>

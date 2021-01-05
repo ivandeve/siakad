@@ -17,8 +17,12 @@ use Illuminate\Support\Facades\Route;
 //     return view('layouts.app');
 // });
 
-Route::get('/', function () {
-    return view('dashboard.index');
+// Route::get('/', function () {
+//     return view('dashboard.index');
+// });
+
+Route::get('/login', function() {
+    return view('auth2.login');
 });
 
 Route::resource('/student', 'StudentsController');
@@ -28,3 +32,8 @@ Route::group(['prefix'=> '/laporan'], function() {
     Route::get('/jumlahdosen','LaporanController@jumlahdosen')->name('laporan.jumlahdosen');
     Route::get('/jumlahmahasiswa','LaporanController@jumlahmahasiswa')->name('laporan.jumlahmahasiswa');
 });
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+
