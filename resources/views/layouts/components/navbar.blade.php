@@ -7,14 +7,15 @@
             <div class="collapse navbar-collapse" id="topnav-menu-content">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboards" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{-- "{{ route('dashboard.index') }}" --}}
+                        <a class="nav-link dropdown-toggle arrow-none" href="{{ url('/') }}" id="topnav-dashboards"
+                            role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="uil-dashboard mr-1"></i>Dashboard
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle arrow-none" href="{{ route('student.index') }}"
+                            id="topnav-apps" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="uil-apps mr-1"></i>Mahasiswa
                         </a>
 
@@ -25,8 +26,8 @@
                             <i class="uil-apps mr-1"></i>Dosen<div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-apps">
-                            <a href="apps-calendar.html" class="dropdown-item">Dosen</a>
-                            <a href="apps-chat.html" class="dropdown-item">Penugasan Dosen</a>
+                            <a href="{{ route('lecture.index') }}" class="dropdown-item">Dosen</a>
+                            <a href="{{ route('lecture.penugasan') }}" class="dropdown-item">Penugasan Dosen</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -35,7 +36,7 @@
                             <i class="uil-package mr-1"></i>Perkuliahan<div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-components">
-                            <a href="widgets.html" class="dropdown-item">Mata Kuliah</a>
+                            <a href="{{ route('matakuliah.index') }}" class="dropdown-item">Mata Kuliah</a>
                             <a href="widgets.html" class="dropdown-item">Kurikulum</a>
                             <a href="widgets.html" class="dropdown-item">Kelas Perkuliahan</a>
                             <a href="widgets.html" class="dropdown-item">Nilai Perkuliahan</a>

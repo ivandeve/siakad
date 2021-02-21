@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('dashboard.index');
-});
+})->name('dashboard.index');
 
 Route::resource('/student', 'StudentsController');
 
@@ -28,3 +28,9 @@ Route::group(['prefix'=> '/laporan'], function() {
     Route::get('/jumlahdosen','LaporanController@jumlahdosen')->name('laporan.jumlahdosen');
     Route::get('/jumlahmahasiswa','LaporanController@jumlahmahasiswa')->name('laporan.jumlahmahasiswa');
 });
+
+Route::get('/lecture/penugasan', 'LectureController@penugasan')->name('lecture.penugasan');
+Route::resource('/lecture', 'LectureController');
+
+Route::resource('/matakuliah', 'MatakuliahController');
+

@@ -123,72 +123,81 @@
                         </ul>
 
                         <div class="tab-content">
-                            <div class="tab-pane active show" id="alamat">
+                            <div class="tab-pane" id="alamat">
                                 <table class="table table-sm table-centered mb-0">
                                     <tbody>
                                         <tr>
                                             <td style="width:20%">Kewarganegaraan<span class="text-danger">*</span></td>
-                                            <td colspan="4">Indonesia</td>
+                                            <td>Indonesia</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">NIK<span class="text-danger">*</span></td>
-                                            <td colspan="4">123456789012345</td>
+                                            <td>123456789012345</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">NISN</td>
-                                            <td colspan="4">0101010101</td>
+                                            <td>0101010101</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">NPWP</td>
-                                            <td colspan="4">0101010101</td>
+                                            <td>0101010101</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Jalan</td>
-                                            <td colspan="4">Sisingamangaraja</td>
+                                            <td>Sisingamangaraja</td>
                                         </tr>
                                         <tr>
-                                            <td style="width:20%">Dusun</td>
-                                            <td>Kranggahan</td>
                                             <td style="width:20%">RT</td>
                                             <td>12</td>
+                                        </tr>
+                                        <tr>
                                             <td style="width:20%">RW</td>
                                             <td>5</td>
                                         </tr>
                                         <tr>
+                                            <td style="width:20%">Dusun</td>
+                                            <td>Kranggahan</td>
+                                        </tr>
+                                        <tr>
                                             <td style="width:20%">Kelurahan</td>
                                             <td>Pasang</td>
-                                            <td style="width:20%">Kodepos</td>
-                                            <td colspan="3">55171</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Kecamatan</td>
-                                            <td colspan="4">Singadireja</td>
+                                            <td>Singadireja</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:20%">Kodepos</td>
+                                            <td>55171</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Jenis Tinggal</td>
-                                            <td colspan="4">Asrama</td>
+                                            <td>Asrama</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Alat Transportasi</td>
-                                            <td colspan="4">55171</td>
+                                            <td>55171</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Telepon</td>
                                             <td>0272323881</td>
+                                        </tr>
+                                        <tr>
                                             <td style="width:20%">HP</td>
-                                            <td colspan="3">081215921919</td>
+                                            <td>081215921919</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Email</td>
-                                            <td colspan="4">ivandev2021@gmail.com</td>
+                                            <td>ivandev2021@gmail.com</td>
                                         </tr>
                                         <tr>
                                             <td style="width:20%">Penerima KPS</td>
                                             <td>Tidak</td>
-                                            <td style="width:20%">No KPS</td>
-                                            <td colspan="3">Singadireja</td>
                                         </tr>
-
+                                        <tr>
+                                            <td style="width:20%">No KPS</td>
+                                            <td>Singadireja</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
