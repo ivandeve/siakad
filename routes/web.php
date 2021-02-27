@@ -22,6 +22,7 @@ Route::get('/', function () {
 })->name('dashboard.index');
 
 Route::resource('/student', 'StudentsController');
+Route::post('/student', 'StudentsController@importexcel')->name('student.import');
 
 Route::group(['prefix'=> '/laporan'], function() {
     Route::get('/rekaplaporan','LaporanController@rekaplaporan')->name('laporan.rekaplaporan');
@@ -33,4 +34,6 @@ Route::get('/lecture/penugasan', 'LectureController@penugasan')->name('lecture.p
 Route::resource('/lecture', 'LectureController');
 
 Route::resource('/matakuliah', 'MatakuliahController');
+
+
 
